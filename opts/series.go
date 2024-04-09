@@ -169,6 +169,8 @@ type ItemStyle struct {
 
 	// ShadowOffsetY Offset distance on the vertical direction of shadow.
 	ShadowOffsetY int `json:"shadowOffsetY,omitempty"`
+
+	BarBorderRadius int `json:"barBorderRadius,omitempty"`
 }
 
 // MarkLines represents a series of marklines.
